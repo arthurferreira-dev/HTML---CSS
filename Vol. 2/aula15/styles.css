@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Old London';
+    src: url('fonts/Olondon_.otf') format(opentype), url('fonts/Olondona.otf') format(opentype), url('fonts/OldLondon.ttf') format(truetype), url('fonts/OldLondonAlternate.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+        Tipos de format()
+        1 opentype (otf)
+        2 truetype (ttf)
+        3 embedded-opentype
+        4 truetype-aat (Apple Advenced Typography)
+        5 svg
+    */
+
+    /*dafonte.com*/
+}
+
+@font-face {
+    font-family: 'Ultra Cream';
+    src: url('fonts/Ultra\ Cream.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Old London', Times, sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Ultra Cream', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}

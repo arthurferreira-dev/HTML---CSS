@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h1 /*box level*/ {
+
+    display: block;
+    background-color: #d3d3d3;
+
+    /*box sizing*/
+    height: 300px;
+    width: 300px;
+
+    /*width, style e color*/
+    border: 10px solid #708090;
+    
+    /*top, right, bottom e left*/
+    /*se todas forem iguais coloque um numero que é o numero que elas são*/
+    padding: 10px;
+
+    /*top, right, bottom e left*/
+    /*margin: auto;*/
+    /*se quiser centralizar é so colocar 'auto' no left e no right*/
+    margin: 10px auto 40px auto;
+
+    /*width, style e color*/
+    outline: 5px dashed #ff0000;
+}
+
+a {
+    display: inline;
+    border: 10px groove #ff0000;
+    /*dashed groove double solid*/
+
+    padding: 10px 10px 10px 10px;
+
+}

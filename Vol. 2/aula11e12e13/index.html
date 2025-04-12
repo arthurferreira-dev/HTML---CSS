@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0, 100;0, 200; 0, 300; 0, 400; 0, 500; 0, 600;0, 700;0, 800; 0, 900; 1, 100;1, 200;1, 300;1, 400;1, 500;1, 600;1,700;1,800;1,900&display=swap');
+
+        body {
+
+            font-family: 'Work Sans', Arial, Helvetica, Verdana, san-serif;
+            /* Medidas Absolutas:
+                cm, mm, in, |px|, | pt, pc.
+
+               Medidas Relativas:
+                |em|, ex, rem, vw, vh, %.
+
+            */
+            font-size: 1em;
+            /* 16px */
+            font-weight: normal;
+            /* lighter normal bold bolder  | (100-900)*/
+            font-style: normal;
+            /*italic normal oblique*/
+            text-decoration: none;
+
+        }
+
+        h1 {
+            /*shorthand font
+            1font style
+            2font weight
+            3font size
+            4font family
+            */
+
+            font: oblique 500 2em 'Work Sans', sans-serif;
+
+        }
+
+        h2 {
+            font: lighter 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quis, assumenda hic fugit dolorum dolore animi laboriosam quaerat error cum soluta quibusdam deserunt tempora blanditiis voluptas? Quis ipsam numquam soluta.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo quo repellat itaque tempora asperiores dignissimos cumque quod aut a necessitatibus consequuntur magnam deserunt sequi facilis laudantium, voluptas maxime facere?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga quia, eligendi nemo eius nesciunt rem excepturi accusantium possimus dolorem placeat laudantium, aliquam aliquid, in delectus. Velit perspiciatis ipsam adipisci.</p>
+</body>
+</html>

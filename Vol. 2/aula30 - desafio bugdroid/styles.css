@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fonts/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --green0:#c5ebd6;
+    --green1:#83e1ad;
+    --green2:#3ddc84;
+    --green3:#2fa866;
+    --green4:#1a5c37;
+    --green5:#063d1e;
+
+    --font-de-destaque:'Bebas Neue', Arial;
+}
+
+
+body {
+    background-color: var(--green1);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--green3), var(--green4));
+    max-width: 1200px;
+    min-width: 120px;
+    text-align: center;
+    padding: 20px ;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.429);
+}
+
+header > h1 {
+    font-family: 'Idroid';
+    font-size: 2.7em;
+    color: #fff;
+    text-shadow: 10px 4px 6px #00000097;
+}
+
+header > p {
+    color: #fff;
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 32px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.419);
+}
+
+nav > a {
+    margin: auto;
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    color: var(--green2);
+    text-decoration: none;
+    background-image: linear-gradient(to right ,var(--green3), transparent);
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.36s;
+}
+
+
+main {
+    background-color: #fff;
+    margin: auto;
+    width: 70%;
+    border-radius: 7.3px;
+    padding: 1px 8px 1px 8px;
+}
+
+
+p {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+}
+
+article > h1 {
+    background-image: linear-gradient(to right, var(--green1),transparent);
+    font-weight: normal;
+    font-size: 1.8em;
+    color: var(--green5);
+    font-family: 'Idroid', sans-serif;
+}
+
+article > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 28px;
+    line-height: 2em;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#p-bug {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 28px;
+    line-height: 2em;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+main img {
+    width: 100%;
+    image-rendering: optimizeQuality;
+}
+
+a.section-links {
+    text-decoration: none;
+    background-color: var(--green2);
+    border-radius: 3.5px;
+    color: var(--green5);
+}
+
+a.section-links::after {
+    content: '\00A0\1F517';
+}
+
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+    background-color: var(--green5);
+    border-radius: 5px;
+    margin: auto;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--green4);
+    padding: 6px;
+}
+
+footer > p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.30em;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3077fa;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
