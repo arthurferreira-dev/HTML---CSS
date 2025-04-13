@@ -67,6 +67,10 @@ nav > a {
     transition: all 0.36s;
 }
 
+nav > a:hover {
+    background-image: linear-gradient(to left, var(--green2), transparent);
+}
+
 
 main {
     background-color: #fff;
