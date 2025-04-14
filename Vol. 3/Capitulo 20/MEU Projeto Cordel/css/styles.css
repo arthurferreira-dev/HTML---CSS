@@ -3,3 +3,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Passion One*/
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Sriracha*/
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font-passion: 'Passion One', Verdana, sans-serif;
+    --font-poesia: 'Sriracha', cursive, sans-serif;
+    --font-default: Verdana, Arial, sans-serif;
+
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--white);
+}
+
+header {
+    background-color: var(--black);
+    padding: 60px;
+    margin-bottom: 100px;
+    color: var(--white);
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--font-passion);
+    font-size: 11.4em;
+    font-weight: 600;
+}
+
+.auta-letra {
+    font-size: 1.2em;
+}
+
+header > p {
+    font-family: var(--font-default);
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: var(--font-poesia);
+}
+
+footer {
+    background-color: var(--black);
+    padding: 3px;
+    margin-top: 20px;
+}
+
+footer > p {
+    color: var(--white);
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--font-default);
+}
