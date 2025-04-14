@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+body {
+    height: 100vh;
+    background-color: #000;
+    background-image: url(imgs/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*
+        cover = cobrir
+        contain = faz cortes (com a cor que vc escolheu ou a cor padrão do site)
+    */
+}
+
+main {
+    background-color: #fff;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #00008b;
+    border-radius: 15px;
+}
