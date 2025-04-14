@@ -24,7 +24,7 @@ body {
 
 header {
     background-color: var(--black);
-    padding: 60px;
+    padding: 35px;
     margin-bottom: 100px;
     color: var(--white);
     text-align: center;
@@ -44,6 +44,24 @@ header > p {
     font-family: var(--font-default);
     font-size: 1.3em;
     font-weight: lighter;
+    padding-bottom: 100px;
+}
+
+nav > a {
+    font-family: var(--font-default);
+    color: var(--white);
+    padding: 13px;
+    border-radius: 6.5px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.55s;
+}
+
+nav > a:hover {
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: none;
 }
 
 a {
@@ -57,7 +75,7 @@ a:hover {
 
 main {
     font-family: var(--font-poesia);
-    font-size: 3.65em;
+    font-size: 5em;
     line-height: 2em;
 }
 
@@ -68,8 +86,10 @@ p.p-section {
 section#img1 {
     background-image: url(../imgs/background001.jpg);
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(../imgs/background002.jpg);
 }
 
 section.imagem {
@@ -82,7 +102,7 @@ section.imagem {
 
 p#p-img01 {
     background-color: #000000a9;
-    width: 27.5%;
+    width: 35%;
     margin-top: 7px;
     color: var(--white);
 }
