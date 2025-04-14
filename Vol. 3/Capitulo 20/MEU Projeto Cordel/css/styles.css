@@ -18,6 +18,7 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: var(--white);
 }
 
@@ -56,6 +57,34 @@ a:hover {
 
 main {
     font-family: var(--font-poesia);
+    font-size: 3.65em;
+    line-height: 2em;
+}
+
+p.p-section {
+    padding-left: 50px;
+}
+
+section#img1 {
+    background-image: url(../imgs/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem {
+    background-color: #333333;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000079;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p#p-img01 {
+    background-color: #000000a9;
+    width: 27.5%;
+    margin-top: 7px;
+    color: var(--white);
 }
 
 footer {
