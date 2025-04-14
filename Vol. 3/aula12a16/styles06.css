@@ -2,21 +2,44 @@
 
 body {
     height: 100vh;
+
+    /*
     background-color: #000;
     background-image: url(imgs/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+
+    /*
+        Shorthand - Background
+            color > image > position> repeat > [size] > attachment
+            (o [size] AINDA não funciona nos navegadores por isso coloque o [size] separado).
+    */
+
+    background: #000 url(imgs/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 
     /*
         cover = cobrir
         contain = faz cortes (com a cor que vc escolheu ou a cor padrão do site)
     */
+
+    /*
+        resultado com o fundo parado e a rolando a imagem fica fixa:
+
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    */
 }
 
 main {
     background-color: #fff;
-    width: 400px;
+    max-width: 700px;
     padding: 10px;
     margin: auto;
     border: 1px solid #00008b;
