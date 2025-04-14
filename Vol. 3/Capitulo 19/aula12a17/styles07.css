@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#container {
+    position: relative;
+    height: 96vh;
+    padding: 15px;
+    background-color: #3e13db;
+    background-image: url(imgs/target001.png);
+    background-size: 100% 100%;
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: #e4e42e;
+    background-image: url(imgs/target001.png);
+    background-size: 100% 100%;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    /*
+        primeiro valor do translate NO POSITIVO é direita e no NEGATIVO é esquerda
+        o segundo valor do translate NO POSITIVO é pra bottom e no NEGATIVO é top
+    */
+}
