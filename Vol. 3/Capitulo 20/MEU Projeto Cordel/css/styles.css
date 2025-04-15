@@ -50,11 +50,14 @@ header > p {
 nav > a {
     font-family: var(--font-default);
     color: var(--white);
-    padding: 13px;
+    padding: 18px;
+    font-size: 1.5em;
+    text-align: center;
     border-radius: 6.5px;
     margin-right: 20px;
     text-decoration: none;
     font-weight: bold;
+    border: none;
     transition-duration: 0.55s;
 }
 
@@ -80,17 +83,18 @@ main {
 }
 
 p.p-section {
-    padding-left: 50px;
+    padding-left: 1px;
 }
 
 section#img1 {
     background-image: url(../imgs/background001.jpg);
     background-position: right center;
-    
+    padding: 50px 0px 50px 50px;
 }
 
 section#img2 {
     background-image: url(../imgs/background002.jpg);
+    padding: 50px 0px 50px 50px;
 }
 
 section.imagem {
@@ -101,6 +105,10 @@ section.imagem {
     background-attachment: fixed;
 }
 
+section.normal {
+    padding-left: 50px;
+}
+
 p#p-img01 {
     background-color: #000000a9;
     width: 35%;
@@ -108,9 +116,16 @@ p#p-img01 {
     color: var(--white);
 }
 
+p#p-img02 {
+    background-color: #000000a9;
+    width: 37.5%;
+    margin-top: 7px;
+    color: var(--white);
+}
+
 footer {
     background-color: var(--black);
-    padding: 3px;
+    padding: 6.5px;
     margin-top: 20px;
 }
 
@@ -119,4 +134,8 @@ footer > p {
     text-align: center;
     font-size: 25px;
     font-family: var(--font-default);
+}
+
+footer > p > a {
+    font-weight: bold;
 }
