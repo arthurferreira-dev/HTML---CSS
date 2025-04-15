@@ -7,6 +7,9 @@
 
 <a href="https://arthurferreira-dev.github.io/HTML---CSS/Vol. 3/Capitulo 20/MEU Projeto Cordel/index.html">Último Arquivo</a>
 
-Link do Repositório no Github Pages:
-
+Link do Repositório no <strong>Github Pages</strong>:
 <a href="https://arthurferreira-dev.github.io/HTML---CSS/">HTML & CSS</a>
+
+<h1><strong>Todos podem usar este Repositório para <em>ESTUDO</em> em qualquer curso!</strong></h1>
+
+<a href="https://www.cursoemvideo.com"><em>Obrigado Mestre Guanabara!</em></a>
