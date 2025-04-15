@@ -1,5 +1,5 @@
 # HTML & CSS
- repositório de estudos sobre html e css (todos os 5 módulos)
+ Repositório de estudos sobre HTML e CSS (todos os 5 módulos)... <em>que ainda não estão concluídos ;(</em>
 
  Estou aprendendo a criar sites e agora vou aprender a gerenciar meus repositórios no github!
 
