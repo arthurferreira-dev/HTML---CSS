@@ -11,6 +11,7 @@
     <!--
         Anatomia para tabelas grandes
         table
+        Caption = legenda
             thead
                 tr,td,th
             tbody
@@ -19,10 +20,11 @@
                 tr,td,th    
     -->
     <table>
+        <caption>As 10 Maiores Populações das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -78,7 +80,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>157 916 089</strong></td>
             </tr>
         </tfoot>
