@@ -6,20 +6,18 @@ body {
 
 table {
     width: 300px;
+    height: 300px;
     border-collapse: collapse;
     /*collapse = junto*/
-    border: 3px solid #ff0000;
-}
-
-tr.linha {
-    background-color: gray;
 }
 
 td {
     border: 1px solid #000;
     padding: 7px;
+    text-align: center; /*alinhamento horizontal*/
+    vertical-align: middle; /*alinhamento vertical*/
 }
 
-td.dado {
-    background-color: #ffff00;
+.numero {
+    text-align: right;
 }
