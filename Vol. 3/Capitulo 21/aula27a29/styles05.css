@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #868686;
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.d3 {
+    background-color: #d3d3d3;
+}
+
+col.cgrupo {
+    background-color: brown;
+}
