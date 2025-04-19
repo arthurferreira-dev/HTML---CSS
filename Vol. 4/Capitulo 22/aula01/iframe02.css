@@ -3,6 +3,12 @@
 iframe {
     display: block;
     margin: auto;
-    height: 500px;
+    height: 425px;
     width: 500px;
+    border: 1px solid #000;
+}
+
+p.error {
+    color: #de0505;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
