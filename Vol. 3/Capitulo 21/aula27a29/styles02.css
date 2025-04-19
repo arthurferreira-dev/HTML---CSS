@@ -7,6 +7,13 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #4b4b4b;
 }
 
 td, th {
