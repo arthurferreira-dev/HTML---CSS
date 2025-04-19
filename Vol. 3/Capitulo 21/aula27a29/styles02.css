@@ -19,6 +19,17 @@ thead, tfoot {
     color: #fff;
 }
 
+tbody > tr:nth-child(odd) {
+    background-color: #d3d3d3;
+    /*
+        odd = impar ou 2n-1
+        even = par ou 2n
+    */
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #fff;
+}
 .num {
     text-align: right;
 }
