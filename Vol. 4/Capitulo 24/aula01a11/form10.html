@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iano">Ano de Nascimento:</label>
+            <input type="number" name="ano" id="iano" min="1920" max="2025" oninput="caclIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function caclIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
