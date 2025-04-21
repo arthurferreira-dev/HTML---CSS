@@ -37,3 +37,11 @@ header > h1 {
     padding-top: 4px;
     margin-bottom: 4px;
 }
+
+article {
+    padding-top: 10px;
+}
+
+article > p {
+    padding-top: 13px;
+}
