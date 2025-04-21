@@ -16,6 +16,8 @@
         <p>
             <label for="iest">Estado:</label>
             <select name="estado" id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
                 <optgroup label="Região Sudeste">
                     <option value="SP">São Paulo</option>
                     <option value="RJ">Rio de Janeiro</option>
@@ -58,6 +60,23 @@
                     <option value="TO">Tocantins</option>
                 </optgroup>
             </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF/PROFª">Professor/Professora</option>
+                <option value="MED">Médico/Médica</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" rows="10" cols="30" placeholder="Sua mensagem aqui...">
+            </textarea>
         </p>
 
         <p>
