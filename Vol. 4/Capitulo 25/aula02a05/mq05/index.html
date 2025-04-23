@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="css/media-query.css">
 </head>
-<body>
+<body onresize="Tamanho()">
     <header>
         <h1>Meu Site</h1>
         <i class="material-icons" id="menu-burger" onclick="cliqueMenu()">menu</i>
@@ -31,6 +32,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, libero aspernatur eaque dolorum ipsum quae, sequi numquam rem alias at molestias, officia rerum omnis natus sed. Dolorum, dignissimos ducimus! Neque!
             Magnam vero a maxime minus saepe, optio sit quis debitis aperiam officiis corrupti, natus magni qui blanditiis consequuntur, nobis quaerat libero labore! Quisquam, molestiae! Perferendis et iste delectus pariatur minima?
             Nostrum qui quo laboriosam ipsa voluptate magnam, quas possimus eum maiores dolorum deleniti, pariatur vel officiis natus a eos exercitationem cumque fugiat unde quidem dolore velit iure perspiciatis! Aliquid, rem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sit nihil velit quisquam quia unde quas est nam at, suscipit ut minus omnis nesciunt minima laudantium autem veritatis! Enim, at!
+            Laborum harum autem suscipit eveniet soluta corrupti minus cum explicabo aut rerum illo, unde, a perferendis fugiat quod distinctio veniam? Dolore voluptatum necessitatibus quos aperiam quod consequatur molestiae distinctio fuga!
+            Dolores deserunt eum alias sint cupiditate dolore, dicta optio eveniet laboriosam architecto possimus illum! Culpa, repellat doloribus corporis reiciendis mollitia iure in sequi eaque provident, dignissimos sunt eum at atque.</p>
         </article>
     </main>
     <script>
@@ -39,6 +43,14 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function Tamanho() {
+            if (window.innerWidth >= 795) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
