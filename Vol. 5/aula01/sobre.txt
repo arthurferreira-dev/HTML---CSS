@@ -1,0 +1,11 @@
+© Curso em Vídeo 2025 (https://github.com/cursoemvideo)
+Professor: @gustavoguanabara
+Escrito por: @arthurferreira-dev
+
+Módulo 05
+Novas Tecnologias
+
+O que vamos aprender?
+1. FlexBox (Caixa Flexivel)
+2. Grid Layout (Grade Multidimensional)
+3. Projeto Final (Portifólio)
