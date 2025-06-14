@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: #b4b4b4;
+}
+
+/*flex-flow = flex-direction + flex-wrap*/
+
+div.container {
+    display: flex;
+    background-color: #fff;
+}
+
+div.item {
+    background-color: brown;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+div#a {
+    flex-flow: row wrap;
+}
+
+div#b {
+    flex-flow: row nowrap;
+}
+
+div#c {
+    flex-flow: row wrap-reverse;
+}
+
+span.comment {
+    color: #23d123;
+}
+
+code {
+    background-color: #797979;
+    color: #0404db;
+    padding: 5px;
+    border-radius: 8px;
+}
