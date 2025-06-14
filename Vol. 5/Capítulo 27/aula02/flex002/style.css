@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: #b5b5b5;
+}
+
+div.container {
+    display: flex;
+    background-color: white;
+}
+
+div#a {
+    flex-direction: row;
+}
+
+div#b {
+    flex-direction: row-reverse;
+}
+
+div#c {
+    flex-direction: column;
+}
+
+div#d {
+    flex-direction: column-reverse;
+}
+
+div.item {
+    background-color: blue; 
+    flex: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+code {
+    background-color: #797979;
+    color: #0404db;
+    padding: 5px;
+    border-radius: 8px;
+}
