@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-color: #b4b4b4;
+}
+
+div.container {
+    display: flex;
+    background-color: #fff;
+}
+
+div.container#a {
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+div.container#b {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+div.container#c {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container#d {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div.container#e {
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+div.container#f {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+div.container#g, div.container#h, div.container#i, div.container#j, div.container#k, div.container#l {
+    flex-flow: column nowrap;
+    height: 500px;
+}
+
+div.container#g {
+    justify-content: flex-start;
+}
+
+div.container#h {
+    justify-content: flex-end;
+}
+
+div.container#i {
+    justify-content: center;
+}
+
+div.container#j {
+    justify-content: space-between;
+}
+
+div.container#k {
+    justify-content: space-evenly;
+}
+
+div.container#l {
+    justify-content: space-around;
+}
+
+div.item {
+    border: 1px solid #000;
+    text-align: center;
+    background-image: linear-gradient(to right, #0303b5, #1212dc); /*background-color*/
+    padding: 10px;
+    color: #ffffffff;
+}
+
+span.comment {
+    color: #23d123;
+}
+
+code {
+    background-color: #797979;
+    color: #0404db;
+    padding: 5px;
+    border-radius: 8px;
+}
