@@ -9,3 +9,11 @@ O que vamos aprender?
 1. FlexBox (Caixa Flexivel)
 2. Grid Layout (Grade Multidimensional)
 3. Projeto Final (Portifólio)
+
+Anotações:
+
+Flexbox {
+    justify-content = alinhamento pelo main-axis
+    align-items = alinhamento pelo cross-axis
+    align-content = alinhamento pelo cross-axis só quando eles estão emcapotados
+}

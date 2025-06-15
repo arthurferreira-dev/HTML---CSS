@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento de elementos empacotados no Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Alinhamento dos elementos empacotados com <code>align-content</code></h2>
+    <h3 id="h3-divs">
+        Vamos usar a caixas <div class="boxs">X</div>, <div class="boxs">Y</div> e <div class="boxs">Z</div>
+    </h3>
+    <br>
+
+    <!--
+    flex-start 1 a
+    flex-end 2 b
+    center 3 c
+    space-between 4 d
+    space-evenly 5 e
+    space-around 6 f
+    stretch 7 g
+    -->
+
+    <h2><code>align-content: stretch</code></h2>
+    <div class="container" id="g">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: flex-start;</code></h2>
+    <div class="container" id="a">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: flex-end;</code></h2>
+    <div class="container" id="b">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: center;</code></h2>
+    <div class="container" id="c">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: space-between;</code></h2>
+    <div class="container" id="d">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: space-evenly;</code></h2>
+    <div class="container" id="e">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h2><code>align-content: space-around;</code></h2>
+    <div class="container" id="f">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+    </div>
+    <br>
+
+    <h3>O <code>align-content: stretch;</code> é o padrão do <code>align-content</code></h3>
+</body>
+</html>
