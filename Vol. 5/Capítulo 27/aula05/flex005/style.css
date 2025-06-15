@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b4b4b4;
+}
+
+main /*Pai*/ {
+    background-color: #6495ed;
+    height: 300px;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+section /*Filho*/ {
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+code {
+    background-color: #797979;
+    color: #0404db;
+    padding: 5px;
+    border-radius: 8px;
+}
