@@ -16,4 +16,7 @@ Flexbox {
     justify-content = alinhamento pelo main-axis
     align-items = alinhamento pelo cross-axis
     align-content = alinhamento pelo cross-axis só quando eles estão emcapotados
+
+    order = muda a ordem sendo o '0' o ponto inicial
+    align-self = cross-axis
 }
