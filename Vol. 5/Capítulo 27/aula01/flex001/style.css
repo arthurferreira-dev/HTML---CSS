@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div.conteiner {
     background-color: brown;
     display: flex;
