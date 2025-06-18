@@ -20,4 +20,6 @@ Flexbox {
     order = muda a ordem sendo o '0' o ponto inicial
     align-self = cross-axis
     flex-basis = mudança de tamanho no item no main-axis
+    flex-shrink = encolhe o item o 0 é false
+    flex-grow = aumenta o item o 1 é true
 }

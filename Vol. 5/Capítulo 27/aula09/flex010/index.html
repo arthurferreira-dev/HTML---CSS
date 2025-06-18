@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de tamanho dos itens Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+        Aumentando e Diminuindo o tamanho dos itens com 
+        <code>flex-shrink</code> e <code>flex-grow</code>
+    </h2>
+    <h2><code>flex-shrink: 1;</code> e <code>flex-grow: 0;</code></h2>
+    <h2><code>.container</code> com <code>width: 650px;</code></h2>
+    <h2><code>.item</code> com <code>flex-basis: 150px;</code></h2>
+    <div class="container" id="a">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+    </div>
+    <br>
+
+    <h2><code>flex-shrink: 0;</code> e <code>flex-grow: 1;</code></h2>
+    <div class="container" id="b">
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+    </div>
+    <br>
+
+    <h2>
+        <code>flex-basis: 150px;</code>, <code>flex-grow: 0;</code> e <code>flex-shrink: 1;</code>
+    </h2>
+    <div class="container" id="c" style="width: 700px;">
+            <div class="item" id="a">1</div>
+            <div class="item" id="b">2</div>
+            <div class="item" id="c">3</div>
+    </div>
+
+    <h1>O que eles são?</h1>
+    <section id="line">
+        <p>
+            A propriedade em <strong class="css">CSS</strong> <code>flex-shrink</code> encolhe o item flexível quando o espaço disponível é menor que o necessário para exibir todos os itens. O valor padrão é <code>1</code>, o que significa que os itens podem encolher para se ajustar ao espaço disponível. Se definido como <code>0</code>, o item não encolherá, mantendo seu tamanho original.
+        </p>
+        <p>
+            A propriedade <strong class="css">CSS</strong> <code>flex-grow</code> permite que os itens flexíveis cresçam para preencher o espaço disponível. O valor padrão é <code>0</code>, o que significa que os itens não crescerão além do seu tamanho base. Se definido como <code>1</code>, o item pode crescer para ocupar o espaço restante no contêiner flexível.
+        </p>
+    </section>
+    <br>
+    <button id="btn">
+        <a href="../flex011/index.html">
+            Exemplo de <code>shrink</code> e <code>grow</code>
+        </a>
+    </button>
+</body>
+</html>
