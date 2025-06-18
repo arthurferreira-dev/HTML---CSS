@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorthand 'flex' Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Usando a <strong>shorthand</strong> <code>flex</code></h1>
+    <div class="container">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
+    </div>
+    <br>
+    <h2>Qual é a ordem da shorthand <code>flex</code> ?</h2>
+    <h3>A ordem é <code>flex = flex-grow + flex-shrink + flex-basis</code> .</h3>
+    <h3>O seu padrão é <code>flex: 0 1 auto;</code> ou <code>flex: initial;</code></h3>
+    <h3>Com o elementos não flexíveis é <code>flex: 0 0 auto;</code> ou <code>flex: none;</code></h3>
+    <h3>Com o elemento flexível no máximo é <code>flex: 1 1 auto;</code> ou <code>flex: auto;</code></h3>
+    <br>
+    <h2>Com qualquer valor:</h2>
+    <h3><code>flex: 3;</code> = <code>flex: 3 1 auto;</code></h3>
+    <h3><code>flex: 17;</code> = <code>felx: 17 1 auto</code></h3>
+    <h3>etc...</h3>
+</body>
+</html>
