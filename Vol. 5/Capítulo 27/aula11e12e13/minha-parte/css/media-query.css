@@ -1,18 +1,15 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    body {
-        font-size: 0.9em;
+    header, header > nav {
+        flex-flow: column nowrap;
     }
 
-    div.container {
-        flex-flow: column wrap;
-        align-content: center;
+    h1#title {
+        flex-basis: 50px;
     }
 
-    div.item {
-        align-self: center;
-        width: 85%;
-        padding: -4.5px;
+    nav > a {
+        width: 90vw;
     }
 }
