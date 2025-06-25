@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    height: 100vh;
+}
+
+header, footer {
+    margin: 6px;
+    padding: 10px;
+}
+
+main {
+    background-color: #cecece;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+section > * {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+p#a, p.b {
+    margin-top: 12px;
+    text-align: justify;
+}
+
+img#soldier {
+    height: 185px;
+    margin-bottom: 6px;
+}
+
+div#diva {
+    flex: 0 1 55%;
+    margin-bottom: 6px;
+}
+
+div#divb {
+    flex: 0 1 55%;
+}
+
+iframe {
+    margin-left: 0px;
+}
